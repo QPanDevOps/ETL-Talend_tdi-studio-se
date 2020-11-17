@@ -133,6 +133,12 @@
             isEditAction="false"
             isReadAction="false"
             name="Export Items"/>
+      <Action
+            class="org.talend.repository.ui.actions.routinesjar.CreateRoutinesJarAction"
+            id="org.talend.repository.actions.createroutinesjar"
+            level="10"
+            name="Create Routines Jar">
+      </Action>
    </extension>
    <extension
          point="org.eclipse.ui.views.properties.tabbed.propertyContributor">
